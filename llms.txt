@@ -1,0 +1,42 @@
+# Kirkkaasti
+
+> Kirkkaasti on suomalainen lasinpesunestebrändi. Tuotetta myydään automaatista Kauppakeskus Iso Omenassa, Espoossa.
+
+## Yritys
+
+- **Nimi:** Kirkkaasti Oy
+- **Verkkosivusto:** https://kirkkaasti.fi
+- **Toimiala:** Lasinpesuneste, autoilutuotteet
+
+## Automaatti
+
+- **Sijainti:** Kauppakeskus Iso Omena, P1B-taso, Prisman ja Citymarketin sisääntuloaula
+- **Osoite:** Piispansilta 11, 02230 Espoo, Suomi
+- **Aukioloajat:** 24/7 (parkkihallin aukioloaikojen mukaan)
+- **Maksuväline:** Korttimaksu
+
+## Päätuote: Kirkkaasti Lasinpesuneste
+
+- **Pakkaskestävyys:** -23°C
+- **Tilavuus:** 3 litraa (pussi)
+- **Teknologia:** Nano-lisäaineistus
+- **Erityisominaisuudet:** Nano-teknologia parantaa puhdistustehoa ja pitää lasin kirkkaan ympäri vuoden
+
+## Muut tuotteet automaatissa
+
+- Tarmo-puhdistusgeeli (autoiluun, 160g)
+- Kojelautaliinat
+- Lasiliinat
+
+## Turvallisuustiedotteet (SDS)
+
+Käyttöturvallisuustiedotteet ladattavissa osoitteessa https://kirkkaasti.fi/#ktt:
+- Suomi: /ktt/SDS_FIN.pdf
+- Englanti: /ktt/SDS_ENG.pdf
+- Viro: /ktt/SDS_EST.pdf
+- Ruotsi: /ktt/SDS_SWE.pdf
+
+## Kieliversiot
+
+- Suomi: https://kirkkaasti.fi/
+- Englanti: https://kirkkaasti.fi/index.en.html
