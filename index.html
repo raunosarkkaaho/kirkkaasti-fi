@@ -188,8 +188,8 @@
       <div class="container">
         <div class="reveal">
           <span class="section-label">Miksi Kirkkaasti</span>
-          <h2 class="section-title">Suomen talveen tehty</h2>
-          <p class="section-lead">Nano-teknologia, äärimmäinen pakkaskestävyys ja käytännöllinen annostelu — kaikki samasta automaatista.</p>
+          <h2 class="section-title">Kesästä talveen, aina kirkkaasti</h2>
+          <p class="section-lead">Nano-lisäaineistus toimii ympäri vuoden. Kun ilma kylmenee, lasinpesuneste on jo valmiina — ei ikäviä yllätyksiä säiden muuttuessa.</p>
         </div>
         <div class="features-grid">
           <div class="feature-card reveal">
@@ -337,30 +337,66 @@
       </div>
     </section>
 
-    <!-- NEWS: Lisätuotteet -->
-    <section class="news">
+    <!-- AJANKOHTAISTA -->
+    <section class="ajankohtaista" id="ajankohtaista">
       <div class="container">
-        <div class="news-inner">
-          <div class="news-text reveal">
-            <span class="news-tag">Uutta helmikuusta 2026</span>
-            <h3>Automaatissa myös auton puhdistustuotteita</h3>
-            <p>Lasinpesunesteen lisäksi automaatista löytyy nyt Tarmo-puhdistusgeeli ja siivousliinat — kaikki auton hoitoon samasta paikasta.</p>
+        <div class="ajankohtaista-header reveal">
+          <div>
+            <span class="section-label">Ajankohtaista</span>
+            <h2 class="section-title">Uutiset</h2>
           </div>
-          <div class="news-products reveal">
-            <div class="news-product">
-              <img src="images/tarmo.png" alt="Tarmo puhdistusgeeli">
-              <span>Tarmo-puhdistusgeeli</span>
-            </div>
-            <div class="news-product">
-              <img src="images/kojelautaliinat.png" alt="Kojelautaliinat">
-              <span>Kojelautaliinat</span>
-            </div>
-            <div class="news-product">
-              <img src="images/lasiliinat.png" alt="Lasiliinat">
-              <span>Lasiliinat</span>
-            </div>
+          <div class="news-nav" aria-label="Selaa uutisia">
+            <button class="news-nav-btn" id="news-prev" aria-label="Edellinen">&#8592;</button>
+            <button class="news-nav-btn" id="news-next" aria-label="Seuraava">&#8594;</button>
           </div>
         </div>
+        <div class="news-track-wrap reveal">
+          <div class="news-track" id="news-track">
+
+            <article class="news-card featured">
+              <div class="news-card-meta">
+                <span class="news-card-tag">Avajaiset</span>
+                <span class="news-card-date">30.4.2026</span>
+              </div>
+              <h3>Kirkkaasti-automaatti avattu Kauppakeskus Iso Omenaan</h3>
+              <p>Automaatti on nyt käytettävissä Iso Omenan P1B-tasolla, Prisman ja Citymarketin sisääntuloaulassa. Helppo täyttö parkkihallissa — 24/7.</p>
+            </article>
+
+            <article class="news-card">
+              <div class="news-card-meta">
+                <span class="news-card-tag">Uudet tuotteet</span>
+                <span class="news-card-date">Helmikuu 2026</span>
+              </div>
+              <h3>Automaatissa nyt myös auton puhdistustuotteita</h3>
+              <p>Lasinpesunesteen lisäksi automaatista löytyy Tarmo-puhdistusgeeli, kojelautaliinat ja lasiliinat — kaikki auton hoitoon samasta paikasta.</p>
+              <div class="news-card-products">
+                <div class="news-card-product">
+                  <img src="images/tarmo.png" alt="Tarmo">
+                  <span>Tarmo</span>
+                </div>
+                <div class="news-card-product">
+                  <img src="images/kojelautaliinat.png" alt="Kojelautaliinat">
+                  <span>Kojelautaliinat</span>
+                </div>
+                <div class="news-card-product">
+                  <img src="images/lasiliinat.png" alt="Lasiliinat">
+                  <span>Lasiliinat</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <div class="news-card-meta">
+                <span class="news-card-tag">Tuote</span>
+                <span class="news-card-date">Aina saatavilla</span>
+              </div>
+              <h3>-23°C Nano-lasinpesuneste — toimii kesästä talveen</h3>
+              <p>Nano-lisäaineistus pitää lasin kirkkaan ympäri vuoden. Kun ilma kylmenee, pakkaskestävyys on jo valmiina. Ei yllätyksistä tarvitse huolehtia.</p>
+            </article>
+
+          </div>
+        </div>
+        <div class="news-dots" id="news-dots" aria-label="Uutisten navigointi"></div>
       </div>
     </section>
 

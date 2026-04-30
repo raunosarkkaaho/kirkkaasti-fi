@@ -188,8 +188,8 @@
       <div class="container">
         <div class="reveal">
           <span class="section-label">Why Kirkkaasti</span>
-          <h2 class="section-title">Made for Nordic winters</h2>
-          <p class="section-lead">Nano technology, extreme frost resistance and practical dispensing — everything from one vending machine.</p>
+          <h2 class="section-title">From summer to winter, always clear</h2>
+          <p class="section-lead">Nano technology works year-round. When temperatures drop, you're already covered — no nasty surprises as the seasons change.</p>
         </div>
         <div class="features-grid">
           <div class="feature-card reveal">
@@ -337,30 +337,66 @@
       </div>
     </section>
 
-    <!-- NEWS: Lisätuotteet -->
-    <section class="news">
+    <!-- LATEST NEWS -->
+    <section class="ajankohtaista" id="ajankohtaista">
       <div class="container">
-        <div class="news-inner">
-          <div class="news-text reveal">
-            <span class="news-tag">New from February 2026</span>
-            <h3>Car cleaning products now available in the machine</h3>
-            <p>In addition to washer fluid, the machine now carries Tarmo cleaning gel and wipes — everything for your car in one place.</p>
+        <div class="ajankohtaista-header reveal">
+          <div>
+            <span class="section-label">Latest news</span>
+            <h2 class="section-title">Updates</h2>
           </div>
-          <div class="news-products reveal">
-            <div class="news-product">
-              <img src="images/tarmo.png" alt="Tarmo cleaning gel">
-              <span>Tarmo cleaning gel</span>
-            </div>
-            <div class="news-product">
-              <img src="images/kojelautaliinat.png" alt="Dashboard wipes">
-              <span>Dashboard wipes</span>
-            </div>
-            <div class="news-product">
-              <img src="images/lasiliinat.png" alt="Glass wipes">
-              <span>Glass wipes</span>
-            </div>
+          <div class="news-nav" aria-label="Browse news">
+            <button class="news-nav-btn" id="news-prev" aria-label="Previous">&#8592;</button>
+            <button class="news-nav-btn" id="news-next" aria-label="Next">&#8594;</button>
           </div>
         </div>
+        <div class="news-track-wrap reveal">
+          <div class="news-track" id="news-track">
+
+            <article class="news-card featured">
+              <div class="news-card-meta">
+                <span class="news-card-tag">Opening</span>
+                <span class="news-card-date">30 Apr 2026</span>
+              </div>
+              <h3>Kirkkaasti machine now open at Iso Omena Shopping Centre</h3>
+              <p>The machine is available at level P1B, in the entrance lobby of Prisma and Citymarket. Easy fill in the car park — 24/7.</p>
+            </article>
+
+            <article class="news-card">
+              <div class="news-card-meta">
+                <span class="news-card-tag">New products</span>
+                <span class="news-card-date">February 2026</span>
+              </div>
+              <h3>Car cleaning products now available in the machine</h3>
+              <p>In addition to washer fluid, the machine now carries Tarmo cleaning gel, dashboard wipes and glass wipes — everything for your car in one place.</p>
+              <div class="news-card-products">
+                <div class="news-card-product">
+                  <img src="images/tarmo.png" alt="Tarmo">
+                  <span>Tarmo</span>
+                </div>
+                <div class="news-card-product">
+                  <img src="images/kojelautaliinat.png" alt="Dashboard wipes">
+                  <span>Dashboard</span>
+                </div>
+                <div class="news-card-product">
+                  <img src="images/lasiliinat.png" alt="Glass wipes">
+                  <span>Glass</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <div class="news-card-meta">
+                <span class="news-card-tag">Product</span>
+                <span class="news-card-date">Always available</span>
+              </div>
+              <h3>-23°C Nano washer fluid — from summer to winter</h3>
+              <p>Nano technology keeps your windscreen clear all year round. When temperatures drop, the frost protection is already there. No nasty surprises.</p>
+            </article>
+
+          </div>
+        </div>
+        <div class="news-dots" id="news-dots" aria-label="News navigation"></div>
       </div>
     </section>
 
