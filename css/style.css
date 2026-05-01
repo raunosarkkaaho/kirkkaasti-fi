@@ -930,3 +930,18 @@ footer {
     gap: 6px;
   }
 }
+
+@media (max-width: 768px) {
+  body::before {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before,
+  .product-image,
+  .reveal {
+    animation: none;
+    transition: none;
+  }
+}
