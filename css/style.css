@@ -367,7 +367,7 @@ header.scrolled {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 16px;
   margin-top: 48px;
 }
@@ -388,9 +388,17 @@ header.scrolled {
 }
 
 .feature-icon {
-  font-size: 28px;
   margin-bottom: 16px;
   line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.feature-icon svg {
+  width: 44px;
+  height: 44px;
+  stroke: var(--primary);
+  flex-shrink: 0;
 }
 
 .feature-card h3 {
